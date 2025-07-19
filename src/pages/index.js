@@ -46,7 +46,7 @@ export default function Home() {
         <div className={`max-w-2xl mx-auto p-6 lg:px-6 lg:max-w-7xl`}>
           <div className={`fade-box ${isVisible ? 'fade-in' : 'fade-out'}`}>
             <h2 className={`text-2xl font-bold mb-16 flex items-center`}>
-              <TbAlertTriangleFilled className={`text-red-600 text-6xl mr-2`}/>
+              <TbAlertTriangleFilled className={`text-6xl mr-2`}/>
               STAY CLEAR FROM THIS INDIVIDUAL.
             </h2>
           </div>
