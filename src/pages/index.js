@@ -52,14 +52,14 @@ export default function Home() {
           </div>
         </div>
         <div className={`max-w-2xl mx-auto p-6 lg:px-6 lg:max-w-7xl`}>
-          <p className={`mb-4`}>Frank Forelle, based in Wyoming, has demonstrated a concerning lack of
+          <p className={`mb-4`}><strong>Frank Forelle</strong>, based in Wyoming, has demonstrated a concerning lack of
             integrity by failing to honor a vehicle sale agreement on the reputable
             auction site, Bring a Trailer. Such behavior erodes trust within the
             enthusiast community and highlights the real risks buyers
             face when sellers act dishonorably.</p>
           <h3 className={`text-xl font-bold mb-4`}>What Happened?</h3>
           <ul className={`pl-4 mb-4`}>
-            <li className={`list-disc`}>Frank Forelle agreed to sell his vehicle through Bring a Trailer, a major online
+            <li className={`list-disc`}><strong>Frank Forelle</strong> agreed to sell his vehicle through Bring a Trailer, a major online
               auction site for classic
               and specialty vehicles.
             </li>
@@ -71,9 +71,9 @@ export default function Home() {
           <p className={`mb-4`}>Failure to complete an agreed sale not only wastes the time and money of honest bidders
             but also damages the
             reputation of these communities as a whole.</p>
-          <h3 className={`text-xl font-bold mb-4`}>Frank Forelle&#39;s Club Affiliations: Porsche Club of America (PCA),
+          <h3 className={`text-xl font-bold mb-4`}><strong>Frank Forelle&#39;s</strong> Club Affiliations: Porsche Club of America (PCA),
             Yellowstone Region</h3>
-          <p className={`mb-4`}>Frank Forelle is a documented member and former executive board director of the Porsche
+          <p className={`mb-4`}><strong>Frank Forelle</strong> is a documented member and former executive board director of the Porsche
             Club of America
             Yellowstone Region. This group publicly lists him as a board member with his contact information associated
             with official club communications</p>
@@ -90,8 +90,7 @@ export default function Home() {
             </li>
           </ul>
           <h3 className={`text-xl font-bold mb-4`}>Yellowstone Region Porsche Club Leadership: A Pattern of Silence</h3>
-          <p className={`mb-4`}>After multiple attempts to contact the Yellowstone Region PCA regarding Frank Forelle’s
-            actions, there was no
+          <p className={`mb-4`}>After multiple attempts to contact the Yellowstone Region PCA regarding <strong>Frank Forelle’s</strong> actions, there was no
             reply or willingness to address the issue from anyone in the local leadership.
             These are the officers and key contacts who did not respond:</p>
           <div className={`max-w-full overflow-x-auto`}>
@@ -162,7 +161,7 @@ export default function Home() {
             disregard for ethical standards and transparency expected from a major club in the automotive community.</p>
           <h3 className={`text-xl font-bold mb-4`}>What Can You Do?</h3>
           <ul className={`pl-4 mb-4`}>
-            <li className={`list-disc`}>Exercise extreme caution in any transactions with Frank Forelle.</li>
+            <li className={`list-disc`}>Exercise extreme caution in any transactions with <strong>Frank Forelle</strong>.</li>
             <li className={`list-disc`}>Be wary of trusting the PCA Yellowstone Region leadership with conflict
               resolution
               or accountability, as they have shown zero willingness to address clear ethics violations among their own
@@ -182,7 +181,7 @@ export default function Home() {
         </div>
         <footer className={`bg-black`}>
           <div className={`max-w-2xl mx-auto p-6 lg:px-6 lg:max-w-7xl`}>
-            <p className={`text-center text-white font-bold`}>2025</p>
+            <p className={`text-center text-white font-bold`}>&copy; 2025 - Frank Forelle</p>
           </div>
         </footer>
       </main>
