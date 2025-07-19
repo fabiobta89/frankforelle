@@ -39,3 +39,16 @@ footer {
     text-wrap: balance;
   }
 }
+
+.fade-box {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0.5; /* default state */
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0.5;
+}

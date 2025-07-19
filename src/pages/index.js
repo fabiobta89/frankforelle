@@ -1,8 +1,6 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import ReactGA from 'react-ga4';
-import { useState } from "react";
-import SubscriptionForm from "@/components/forms/SubscriptionForm";
+import { useState, useEffect } from "react";
 import pca_logo from '@/images/pca.png';
 import pca_yellow_logo from '@/images/yellowstone-pca.png';
 import { TbAlertTriangleFilled } from "react-icons/tb";
@@ -13,8 +11,15 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
 
   const [tab, setTab] = useState(0);
+  const [isVisible, setIsVisible] = useState(true);
 
-  ReactGA.initialize('G-YB4LLRTYS4');
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIsVisible(prev => !prev); // toggle visibility
+    }, 1000); // every 2 seconds
+
+    return () => clearInterval(interval); // cleanup
+  }, []);
 
   return (
     <>
@@ -39,10 +44,12 @@ export default function Home() {
           </div>
         </header>
         <div className={`max-w-2xl mx-auto p-6 lg:px-6 lg:max-w-7xl`}>
-          <h2 className={`text-2xl font-bold mb-16 flex items-center`}>
-            <TbAlertTriangleFilled className={`text-red-600 text-6xl mr-2`}/>
-            STAY CLEAR FROM THIS INDIVIDUAL.
-          </h2>
+          <div className={`fade-box ${isVisible ? 'fade-in' : 'fade-out'}`}>
+            <h2 className={`text-2xl font-bold mb-16 flex items-center`}>
+              <TbAlertTriangleFilled className={`text-red-600 text-6xl mr-2`}/>
+              STAY CLEAR FROM THIS INDIVIDUAL.
+            </h2>
+          </div>
           <p className={`mb-4`}>Frank Forelle, based in Wyoming, has demonstrated a concerning lack of
             integrity by failing to honor a vehicle sale agreement on the reputable
             auction site, Bring a Trailer. Such behavior erodes trust within the
