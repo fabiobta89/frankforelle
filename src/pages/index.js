@@ -27,26 +27,26 @@ export default function Home() {
           enthusiast community and highlights the real risks buyers
           face when sellers act dishonorably.</p>
         <h3 className={`text-xl font-bold mb-4`}>What Happened?</h3>
-        <ul>
-          <li>Frank Forelle agreed to sell his vehicle through Bring a Trailer, a major online auction site for classic
+        <ul className={`pl-4 mb-4`}>
+          <li className={`list-disc`}>Frank Forelle agreed to sell his vehicle through Bring a Trailer, a major online auction site for classic
             and specialty vehicles.
           </li>
-          <li>Despite reaching a deal, he did not finalize the transaction, leaving the winning bidder without
+          <li className={`list-disc`}>Despite reaching a deal, he did not finalize the transaction, leaving the winning bidder without
             recourse
           </li>
         </ul>
         <p className={`mb-4`}>Failure to complete an agreed sale not only wastes the time and money of honest bidders but also damages the
           reputation of these communities as a whole.</p>
-        <h3>Frank Forelle&#39;s Club Affiliations: Porsche Club of America (PCA), Yellowstone Region</h3>
+        <h3 className={`text-xl font-bold mb-4`}>Frank Forelle&#39;s Club Affiliations: Porsche Club of America (PCA), Yellowstone Region</h3>
         <p className={`mb-4`}>Frank Forelle is a documented member and former executive board director of the Porsche Club of America
           Yellowstone Region. This group publicly lists him as a board member with his contact information associated
           with official club communications</p>
         <h3 className={`text-xl font-bold mb-4`}>Why This Matters</h3>
-        <ul>
-          <li>Joining a recognized organization like the PCA is typically seen as a sign of credibility within the car
+        <ul className={`pl-4 mb-4`}>
+          <li className={`list-disc`}>Joining a recognized organization like the PCA is typically seen as a sign of credibility within the car
             enthusiast world.
           </li>
-          <li>However, when a club member acts dishonorably in public transactions and the club leadership fails to
+          <li className={`list-disc`}>However, when a club member acts dishonorably in public transactions and the club leadership fails to
             address the behavior or even respond to good-faith concerns, the integrity of the whole organization is
             called into question.
           </li>
@@ -118,10 +118,10 @@ export default function Home() {
         </table>
         <p className={`mb-4`}>This lack of any helpful response from the entire listed leadership demonstrates a disregard for ethical standards and transparency expected from a major club in the automotive community.</p>
         <h3 className={`text-xl font-bold mb-4`}>What Can You Do?</h3>
-        <ul>
-          <li>Exercise extreme caution in any transactions with Frank Forelle.</li>
-          <li>Be wary of trusting the PCA Yellowstone Region leadership with conflict resolution or accountability, as they have shown zero willingness to address clear ethics violations among their own ranks.</li>
-          <li>Share this information with others in the collector and enthusiast communities to help prevent future issues.</li>
+        <ul className={`pl-4 mb-4`}>
+          <li className={`list-disc`}>Exercise extreme caution in any transactions with Frank Forelle.</li>
+          <li className={`list-disc`}>Be wary of trusting the PCA Yellowstone Region leadership with conflict resolution or accountability, as they have shown zero willingness to address clear ethics violations among their own ranks.</li>
+          <li className={`list-disc`}>Share this information with others in the collector and enthusiast communities to help prevent future issues.</li>
         </ul>
         <h3 className={`text-xl font-bold mb-4`}>Protect Yourself and Others</h3>
         <p className={`mb-4`}>If you experience or witness unethical behavior in online car auctions, make it public, warn your community, and demand accountability—both from individuals and the organizations they represent.</p>
