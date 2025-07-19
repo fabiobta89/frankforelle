@@ -5,6 +5,7 @@ import { useState } from "react";
 import SubscriptionForm from "@/components/forms/SubscriptionForm";
 import pca_logo from '@/images/pca.png';
 import pca_yellow_logo from '@/images/yellowstone-pca.png';
+import { TbAlertTriangleFilled } from "react-icons/tb";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,7 +39,10 @@ export default function Home() {
           </div>
         </header>
         <div className={`max-w-2xl mx-auto p-6 lg:px-6 lg:max-w-7xl`}>
-          <h2 className={`text-2xl font-bold mb-16`}>STAY CLEAR FROM THIS INDIVIDUAL.</h2>
+          <h2 className={`text-2xl font-bold mb-16 flex items-center`}>
+            <TbAlertTriangleFilled className={`text-red-600 text-6xl mr-2`}/>
+            STAY CLEAR FROM THIS INDIVIDUAL.
+          </h2>
           <p className={`mb-4`}>Frank Forelle, based in Wyoming, has demonstrated a concerning lack of
             integrity by failing to honor a vehicle sale agreement on the reputable
             auction site, Bring a Trailer. Such behavior erodes trust within the
