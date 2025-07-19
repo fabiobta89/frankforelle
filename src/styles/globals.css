@@ -43,15 +43,19 @@ footer {
 .fade-box {
   transition: opacity 0.5s ease-in-out;
   /*opacity: 0.5; !* default state *!*/
-  color: red;
+  color: white;
+  background-color: red;
 }
 
 .fade-in {
   /*opacity: 1;*/
-  color: black;
+  color: red;
+  background-color: white;
 }
 
 .fade-out {
   /*opacity: 0.5;*/
-  color: red;
+  color: white;
+  background-color: red;
 }
+

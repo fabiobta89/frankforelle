@@ -26,7 +26,7 @@ export default function Home() {
       <main
           className={`${inter.className}`}
       >
-        <header className={`mb-4 bg-black`}>
+        <header className={`bg-black`}>
           <div className={`max-w-2xl mx-auto p-6 lg:px-6 lg:max-w-7xl`}>
             <div className={`flex items-center mb-4`}>
               <Image
@@ -43,13 +43,15 @@ export default function Home() {
             <h1 className={`text-6xl font-bold text-white`}>Should Frank Forelle Be Trusted?</h1>
           </div>
         </header>
-        <div className={`max-w-2xl mx-auto p-6 lg:px-6 lg:max-w-7xl`}>
-          <div className={`fade-box ${isVisible ? 'fade-in' : 'fade-out'}`}>
-            <h2 className={`text-2xl font-bold mb-16 flex items-center`}>
+        <div className={`fade-box ${isVisible ? 'fade-in' : 'fade-out'}`}>
+          <div className={`max-w-2xl mx-auto p-6 lg:px-6 lg:max-w-7xl`}>
+            <h2 className={`text-2xl font-bold flex items-center`}>
               <TbAlertTriangleFilled className={`text-6xl mr-2`}/>
               STAY CLEAR FROM THIS INDIVIDUAL.
             </h2>
           </div>
+        </div>
+        <div className={`max-w-2xl mx-auto p-6 lg:px-6 lg:max-w-7xl`}>
           <p className={`mb-4`}>Frank Forelle, based in Wyoming, has demonstrated a concerning lack of
             integrity by failing to honor a vehicle sale agreement on the reputable
             auction site, Bring a Trailer. Such behavior erodes trust within the
