@@ -20,7 +20,7 @@ export default function Home() {
       <main
           className={`${inter.className}`}
       >
-        <header className={`mb-4 bg-gray-400 bg-black`}>
+        <header className={`mb-4 bg-black`}>
           <div className={`max-w-2xl mx-auto p-6 lg:px-6 lg:max-w-7xl`}>
             <div className={`flex items-center mb-4`}>
               <Image
