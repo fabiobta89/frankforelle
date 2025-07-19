@@ -55,77 +55,87 @@ export default function Home() {
         <p className={`mb-4`}>After multiple attempts to contact the Yellowstone Region PCA regarding Frank Forelle’s actions, there was no
           reply or willingness to address the issue from anyone in the local leadership.
           These are the officers and key contacts who did not respond:</p>
-        <table className="border-collapse border border-gray-400 w-full mb-4">
-          <thead>
-          <tr>
-            <th className="border border-gray-300 p-2">Name</th>
-            <th className="border border-gray-300 p-2">Role</th>
-            <th className="border border-gray-300 p-2">Contact</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td className="border border-gray-300 p-2 p-2">Frank Forelle</td>
-            <td className="border border-gray-300 p-2 p-2">Director</td>
-            <td className="border border-gray-300 p-2 p-2">frankforelle@yahoo.com</td>
-          </tr>
-          <tr>
-            <td className="border border-gray-300 p-2 p-2">Mark Kaczor</td>
-            <td className="border border-gray-300 p-2 p-2">President</td>
-            <td className="border border-gray-300 p-2 p-2">markkaze@gmail.com</td>
-          </tr>
-          <tr>
-            <td className="border border-gray-300 p-2 p-2">Greg Wallace</td>
-            <td className="border border-gray-300 p-2 p-2">Vice President, Newsletter</td>
-            <td className="border border-gray-300 p-2 p-2">gwallace@bropart.com</td>
-          </tr>
-          <tr>
-            <td className="border border-gray-300 p-2">Cody Mulligan</td>
-            <td className="border border-gray-300 p-2">Treasurer</td>
-            <td className="border border-gray-300 p-2">codymulligan@gmail.com</td>
-          </tr>
-          <tr>
-            <td className="border border-gray-300 p-2">Bobbie Reppa</td>
-            <td className="border border-gray-300 p-2">Secretary</td>
-            <td className="border border-gray-300 p-2">ddreppa@cs.com</td>
-          </tr>
-          <tr>
-            <td className="border border-gray-300 p-2">Eric Weber</td>
-            <td className="border border-gray-300 p-2">Director</td>
-            <td className="border border-gray-300 p-2">powderstash@bresnan.net</td>
-          </tr>
-          <tr>
-            <td className="border border-gray-300 p-2">Dwight Reppa</td>
-            <td className="border border-gray-300 p-2">Director</td>
-            <td className="border border-gray-300 p-2">ddreppa@cs.com</td>
-          </tr>
-          <tr>
-            <td className="border border-gray-300 p-2">Ked Nilson</td>
-            <td className="border border-gray-300 p-2">Webmeister</td>
-            <td className="border border-gray-300 p-2">ked@kwazadilla.com</td>
-          </tr>
-          <tr>
-            <td className="border border-gray-300 p-2">Paula Szypko</td>
-            <td className="border border-gray-300 p-2">Newsletter Co-Editor</td>
-            <td className="border border-gray-300 p-2">peszypko@gmail.com</td>
-          </tr>
-          <tr>
-            <td className="border border-gray-300 p-2">Marty Quadland</td>
-            <td className="border border-gray-300 p-2">Newsletter Co-Editor</td>
-            <td className="border border-gray-300 p-2">docquad@aol.com</td>
-          </tr>
-          </tbody>
-        </table>
-        <p className={`mb-4 italic`}>This lack of any helpful response from the entire listed leadership demonstrates a disregard for ethical standards and transparency expected from a major club in the automotive community.</p>
+        <div className={`max-w-full overflow-x-auto`}>
+          <table className="border-collapse border border-gray-400 w-full mb-4">
+            <thead>
+            <tr>
+              <th className="border border-gray-300 p-2">Name</th>
+              <th className="border border-gray-300 p-2">Role</th>
+              <th className="border border-gray-300 p-2">Contact</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td className="border border-gray-300 p-2 p-2">Frank Forelle</td>
+              <td className="border border-gray-300 p-2 p-2">Director</td>
+              <td className="border border-gray-300 p-2 p-2">frankforelle@yahoo.com</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 p-2 p-2">Mark Kaczor</td>
+              <td className="border border-gray-300 p-2 p-2">President</td>
+              <td className="border border-gray-300 p-2 p-2">markkaze@gmail.com</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 p-2 p-2">Greg Wallace</td>
+              <td className="border border-gray-300 p-2 p-2">Vice President, Newsletter</td>
+              <td className="border border-gray-300 p-2 p-2">gwallace@bropart.com</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 p-2">Cody Mulligan</td>
+              <td className="border border-gray-300 p-2">Treasurer</td>
+              <td className="border border-gray-300 p-2">codymulligan@gmail.com</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 p-2">Bobbie Reppa</td>
+              <td className="border border-gray-300 p-2">Secretary</td>
+              <td className="border border-gray-300 p-2">ddreppa@cs.com</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 p-2">Eric Weber</td>
+              <td className="border border-gray-300 p-2">Director</td>
+              <td className="border border-gray-300 p-2">powderstash@bresnan.net</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 p-2">Dwight Reppa</td>
+              <td className="border border-gray-300 p-2">Director</td>
+              <td className="border border-gray-300 p-2">ddreppa@cs.com</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 p-2">Ked Nilson</td>
+              <td className="border border-gray-300 p-2">Webmeister</td>
+              <td className="border border-gray-300 p-2">ked@kwazadilla.com</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 p-2">Paula Szypko</td>
+              <td className="border border-gray-300 p-2">Newsletter Co-Editor</td>
+              <td className="border border-gray-300 p-2">peszypko@gmail.com</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 p-2">Marty Quadland</td>
+              <td className="border border-gray-300 p-2">Newsletter Co-Editor</td>
+              <td className="border border-gray-300 p-2">docquad@aol.com</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <p className={`mb-4 italic`}>This lack of any helpful response from the entire listed leadership demonstrates a
+          disregard for ethical standards and transparency expected from a major club in the automotive community.</p>
         <h3 className={`text-xl font-bold mb-4`}>What Can You Do?</h3>
         <ul className={`pl-4 mb-4`}>
           <li className={`list-disc`}>Exercise extreme caution in any transactions with Frank Forelle.</li>
-          <li className={`list-disc`}>Be wary of trusting the PCA Yellowstone Region leadership with conflict resolution or accountability, as they have shown zero willingness to address clear ethics violations among their own ranks.</li>
-          <li className={`list-disc`}>Share this information with others in the collector and enthusiast communities to help prevent future issues.</li>
+          <li className={`list-disc`}>Be wary of trusting the PCA Yellowstone Region leadership with conflict resolution
+            or accountability, as they have shown zero willingness to address clear ethics violations among their own
+            ranks.
+          </li>
+          <li className={`list-disc`}>Share this information with others in the collector and enthusiast communities to
+            help prevent future issues.
+          </li>
         </ul>
         <h3 className={`text-xl font-bold mb-4`}>Protect Yourself and Others</h3>
-        <p className={`mb-4`}>If you experience or witness unethical behavior in online car auctions, make it public, warn your community, and demand accountability—both from individuals and the organizations they represent.</p>
-        <p className={`italic`}>This site will be updated with any further information or developments in this situation.</p>
+        <p className={`mb-4`}>If you experience or witness unethical behavior in online car auctions, make it public,
+          warn your community, and demand accountability—both from individuals and the organizations they represent.</p>
+        <p className={`italic`}>This site will be updated with any further information or developments in this
+          situation.</p>
       </main>
 
     </>
