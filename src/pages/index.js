@@ -116,7 +116,7 @@ export default function Home() {
           </tr>
           </tbody>
         </table>
-        <p className={`mb-4`}>This lack of any helpful response from the entire listed leadership demonstrates a disregard for ethical standards and transparency expected from a major club in the automotive community.</p>
+        <p className={`mb-4 italic`}>This lack of any helpful response from the entire listed leadership demonstrates a disregard for ethical standards and transparency expected from a major club in the automotive community.</p>
         <h3 className={`text-xl font-bold mb-4`}>What Can You Do?</h3>
         <ul className={`pl-4 mb-4`}>
           <li className={`list-disc`}>Exercise extreme caution in any transactions with Frank Forelle.</li>
