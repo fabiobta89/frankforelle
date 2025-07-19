@@ -125,7 +125,7 @@ export default function Home() {
         </ul>
         <h3 className={`text-xl font-bold mb-4`}>Protect Yourself and Others</h3>
         <p className={`mb-4`}>If you experience or witness unethical behavior in online car auctions, make it public, warn your community, and demand accountability—both from individuals and the organizations they represent.</p>
-        <p>This site will be updated with any further information or developments in this situation.</p>
+        <p className={`italic`}>This site will be updated with any further information or developments in this situation.</p>
       </main>
 
     </>
