@@ -37,7 +37,7 @@ export default function Home() {
         </ul>
         <p className={`mb-4`}>Failure to complete an agreed sale not only wastes the time and money of honest bidders but also damages the
           reputation of these communities as a whole.</p>
-        <h3>Frank Forelle's Club Affiliations: Porsche Club of America (PCA), Yellowstone Region</h3>
+        <h3>Frank Forelle&#39;s Club Affiliations: Porsche Club of America (PCA), Yellowstone Region</h3>
         <p className={`mb-4`}>Frank Forelle is a documented member and former executive board director of the Porsche Club of America
           Yellowstone Region. This group publicly lists him as a board member with his contact information associated
           with official club communications</p>
