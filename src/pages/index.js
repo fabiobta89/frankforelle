@@ -192,7 +192,7 @@ export default function Home() {
         </div>
         <footer className={`bg-black`}>
           <div className={`max-w-2xl mx-auto p-6 lg:px-6 lg:max-w-7xl`}>
-            <p className={`text-center text-white font-bold`}>&copy; 2025 - Frank Forelle</p>
+            <p className={`text-center text-white font-bold`}>2025</p>
           </div>
         </footer>
       </main>
