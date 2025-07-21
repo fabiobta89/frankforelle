@@ -36,18 +36,6 @@ export default function Home() {
                   height={`150`}
                   width={`150`}
               />
-              {/*<div className={`flex flex-col`}>*/}
-              {/*  <Image*/}
-              {/*      src={pca_logo} alt={`PCA Logo`}*/}
-              {/*      height={`75`}*/}
-              {/*      width={`75`}*/}
-              {/*  />*/}
-              {/*  <Image*/}
-              {/*      src={pca_yellow_logo} alt={`PCA Yellow Logo`}*/}
-              {/*      height={`75`}*/}
-              {/*      width={`75`}*/}
-              {/*  />*/}
-              {/*</div>*/}
             </div>
             <h1 className={`text-6xl font-bold text-white`}>
               Should Frank Forelle Be Trusted?
