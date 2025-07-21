@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { useState, useEffect } from "react";
 import pca_logo from '@/images/pca.png';
 import pca_yellow_logo from '@/images/yellowstone-pca.png';
+import frank from '@/images/frank-x-1-150x150.jpg';
 import { TbAlertTriangleFilled } from "react-icons/tb";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -28,22 +29,32 @@ export default function Home() {
       >
         <header className={`bg-black`}>
           <div className={`max-w-2xl mx-auto p-6 lg:px-6 lg:max-w-7xl`}>
-            <div className={`flex items-center mb-4`}>
+            <div className={`flex justify-between w-full items-center mb-4`}>
               <Image
-                  src={pca_logo} alt={`PCA Logo`}
-                  height={`75`}
-                  width={`75`}
+                  src={frank} alt={`Frank Forelle`}
+                  className={`rounded-full`}
+                  height={`150`}
+                  width={`150`}
               />
-              <Image
-                  src={pca_yellow_logo} alt={`PCA Yellow Logo`}
-                  height={`75`}
-                  width={`75`}
-              />
+              {/*<div className={`flex flex-col`}>*/}
+              {/*  <Image*/}
+              {/*      src={pca_logo} alt={`PCA Logo`}*/}
+              {/*      height={`75`}*/}
+              {/*      width={`75`}*/}
+              {/*  />*/}
+              {/*  <Image*/}
+              {/*      src={pca_yellow_logo} alt={`PCA Yellow Logo`}*/}
+              {/*      height={`75`}*/}
+              {/*      width={`75`}*/}
+              {/*  />*/}
+              {/*</div>*/}
             </div>
-            <h1 className={`text-6xl font-bold text-white`}>Should Frank Forelle Be Trusted?</h1>
+            <h1 className={`text-6xl font-bold text-white`}>
+              Should Frank Forelle Be Trusted?
+            </h1>
           </div>
         </header>
-        <div className={`fade-box ${isVisible ? 'fade-in' : 'fade-out'}`}>
+        <div className={` border-b border-b-4 border-gray-800 fade-box ${isVisible ? 'fade-in' : 'fade-out'}`}>
           <div className={`max-w-2xl mx-auto p-6 lg:px-6 lg:max-w-7xl`}>
             <h2 className={`text-2xl font-bold flex items-center`}>
               <TbAlertTriangleFilled className={`text-6xl mr-2`}/>
@@ -52,6 +63,18 @@ export default function Home() {
           </div>
         </div>
         <div className={`max-w-2xl mx-auto p-6 lg:px-6 lg:max-w-7xl`}>
+          <div className={`flex items-center mb-4`}>
+            <Image
+                src={pca_logo} alt={`PCA Logo`}
+                height={`75`}
+                width={`75`}
+            />
+            <Image
+                src={pca_yellow_logo} alt={`PCA Yellow Logo`}
+                height={`75`}
+                width={`75`}
+            />
+          </div>
           <p className={`mb-4`}><strong>Frank Forelle</strong>, based in Wyoming, has demonstrated a concerning lack of
             integrity by failing to honor a vehicle sale agreement on the reputable
             auction site, Bring a Trailer. Such behavior erodes trust within the
