@@ -45,7 +45,7 @@ export default function Home() {
         <div className={`border-b-4 border-gray-800 fade-box ${isVisible ? 'fade-in' : 'fade-out'}`}>
           <div className={`max-w-2xl mx-auto p-6 lg:px-6 lg:max-w-7xl`}>
             <h2 className={`text-2xl font-bold flex items-center`}>
-              <TbAlertTriangleFilled className={`text-6xl mr-2`}/>
+              <TbAlertTriangleFilled className={`text-3xl mr-2`}/>
               WARNING: Do Not Trust Frank Forelle and Avoid at all Costs
             </h2>
           </div>
