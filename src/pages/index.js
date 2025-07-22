@@ -69,13 +69,13 @@ export default function Home() {
           <h3 className={`text-3xl font-extrabold mb-8`}>The Frank Forelle Fiasco</h3>
           <p className={`mb-8`}>Frank Forelle’s actions have exposed his true nature as a liar who cannot be trusted under any circumstance:</p>
           <ul className={`pl-4 mb-8`}>
-            <li className={`list-disc mb-8`}><span className={`font-bold`}>Habitual liar:</span> Frank agreed to sell his vehicle on Bring a Trailer, only to shamelessly back out of the deal with no explanation, apology, or attempt to set things right.</li>
-            <li className={`list-disc mb-8`}><span className={`font-bold`}>False promises:</span> He gives his word and then treats it as worthless, misleading others and ignoring every commitment he’s made.</li>
-            <li className={`list-disc mb-8`}><span className={`font-bold`}>Complete disrespect:</span> When confronted, Frank vanished—refusing to respond and showing that accountability and honesty mean absolutely nothing to him.</li>
-            <li className={`list-disc mb-8`}><span className={`font-bold`}>Serial deceiver:</span> His pattern is clear: say anything to get what he wants, then disappear when it’s time to deliver.</li>
-            <li className={`list-disc`}><span className={`font-bold`}>Irredeemable reputation:</span> There is no excuse or justification for Frank’s ongoing dishonesty; he’s simply demonstrated, again and again, that he cannot be believed.</li>
+            <li className={`list-disc mb-8`}><span className={`font-extrabold`}>Habitual liar:</span> Frank agreed to sell his vehicle on Bring a Trailer, only to shamelessly back out of the deal with no explanation, apology, or attempt to set things right.</li>
+            <li className={`list-disc mb-8`}><span className={`font-extrabold`}>False promises:</span> He gives his word and then treats it as worthless, misleading others and ignoring every commitment he’s made.</li>
+            <li className={`list-disc mb-8`}><span className={`font-extrabold`}>Complete disrespect:</span> When confronted, Frank vanished—refusing to respond and showing that accountability and honesty mean absolutely nothing to him.</li>
+            <li className={`list-disc mb-8`}><span className={`font-extrabold`}>Serial deceiver:</span> His pattern is clear: say anything to get what he wants, then disappear when it’s time to deliver.</li>
+            <li className={`list-disc`}><span className={`font-extrabold`}>Irredeemable reputation:</span> There is no excuse or justification for Frank’s ongoing dishonesty; he’s simply demonstrated, again and again, that he cannot be believed.</li>
           </ul>
-          <p className={`mb-8`}>Anyone thinking of dealing with Frank Forelle should expect empty promises, wasted time, and a complete lack of integrity. <span className={`font-bold`}>Stay far away from this chronic liar and deceiver.</span></p>
+          <p className={`mb-8`}>Anyone thinking of dealing with Frank Forelle should expect empty promises, wasted time, and a complete lack of integrity. <span className={`font-extrabold`}>Stay far away from this chronic liar and deceiver.</span></p>
           <h3 className={`text-3xl font-extrabold mb-8`}>The Porsche Club of America, Yellowstone Region: A Culture of Cowardice</h3>
           <p className={`mb-8`}>But the rot doesn’t stop at Frank. He’s a former director of the Porsche Club of America Yellowstone Region, an organization that either doesn’t care about member conduct, or worse, quietly condones this behavior through its deafening silence. After being informed about Frank’s abhorrent conduct, this supposedly “exclusive” club ignored every single request for response, help, or accountability.</p>
           <h3 className={`text-3xl font-extrabold mb-8`}>PCA Yellowstone: Where Leadership Means Looking the Other Way</h3>
@@ -143,13 +143,13 @@ export default function Home() {
               </tbody>
             </table>
           </div>
-          <p className={`mb-8`}><span className={`font-bold`}>Every one of them chose silence. Not a peep.</span> No explanation, no action—just pure indifference. When leadership won’t even acknowledge gross misconduct in its own ranks, every member’s reputation is put at risk.</p>
+          <p className={`mb-8`}><span className={`font-extrabold`}>Every one of them chose silence. Not a peep.</span> No explanation, no action—just pure indifference. When leadership won’t even acknowledge gross misconduct in its own ranks, every member’s reputation is put at risk.</p>
           <h3 className={`text-3xl font-extrabold mb-8`}>The Takeaway</h3>
           <ul className={`pl-4 mb-8`}>
-            <li className={`list-disc mb-8`}><span className={`font-bold`}>Frank Forelle:</span> Shifty, unreliable, and unapologetically dishonest—avoid like the plague.</li>
-            <li className={`list-disc mb-8`}><span className={`font-bold`}>PCA Yellowstone Leadership:</span> A collective wall of silence and complicity. Don’t expect them to stand up for fairness or hold anyone accountable.</li>
+            <li className={`list-disc mb-8`}><span className={`font-extrabold`}>Frank Forelle:</span> Shifty, unreliable, and unapologetically dishonest—avoid like the plague.</li>
+            <li className={`list-disc mb-8`}><span className={`font-extrabold`}>PCA Yellowstone Leadership:</span> A collective wall of silence and complicity. Don’t expect them to stand up for fairness or hold anyone accountable.</li>
           </ul>
-          <p className={`mb-8`}>If you value your money, your sanity, or your sense of fairness, <span className={`font-bold`}>stay far away from both Frank Forelle and anyone doing business under the PCA Yellowstone Region.</span> Make no mistake: associating with them is inviting dishonesty, disrespect, and—if you trust them—regret. Let their actions (or lack thereof) serve as a warning: there are people and organizations out there who simply do not care about doing the right thing.</p>
+          <p className={`mb-8`}>If you value your money, your sanity, or your sense of fairness, <span className={`font-extrabold`}>stay far away from both Frank Forelle and anyone doing business under the PCA Yellowstone Region.</span> Make no mistake: associating with them is inviting dishonesty, disrespect, and—if you trust them—regret. Let their actions (or lack thereof) serve as a warning: there are people and organizations out there who simply do not care about doing the right thing.</p>
         </div>
         <footer className={`bg-black`}>
           <div className={`max-w-2xl mx-auto p-6 lg:px-6 lg:max-w-7xl`}>
