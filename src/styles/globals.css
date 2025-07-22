@@ -53,9 +53,17 @@ footer {
   background-color: white;
 }
 
+.fade-in span{
+  background-color: red;
+}
+
 .fade-out {
   /*opacity: 0.5;*/
   color: white;
   background-color: red;
+}
+
+.fade-out span{
+  background-color: white;
 }
 
