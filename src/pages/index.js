@@ -42,11 +42,11 @@ export default function Home() {
             </h1>
           </div>
         </header>
-        <div className={` border-b border-b-4 border-gray-800 fade-box ${isVisible ? 'fade-in' : 'fade-out'}`}>
+        <div className={`border-b-4 border-gray-800 fade-box ${isVisible ? 'fade-in' : 'fade-out'}`}>
           <div className={`max-w-2xl mx-auto p-6 lg:px-6 lg:max-w-7xl`}>
             <h2 className={`text-2xl font-bold flex items-center`}>
               <TbAlertTriangleFilled className={`text-6xl mr-2`}/>
-              STAY CLEAR FROM THIS INDIVIDUAL.
+              WARNING: Do Not Trust Frank Forelle and Avoid at all Costs
             </h2>
           </div>
         </div>
@@ -63,47 +63,21 @@ export default function Home() {
                 width={`75`}
             />
           </div>
-          <p className={`mb-4`}><strong>Frank Forelle</strong>, based in Wyoming, has demonstrated a concerning lack of
-            integrity by failing to honor a vehicle sale agreement on the reputable
-            auction site, Bring a Trailer. Such behavior erodes trust within the
-            enthusiast community and highlights the real risks buyers
-            face when sellers act dishonorably.</p>
-          <h3 className={`text-xl font-bold mb-4`}>What Happened?</h3>
+          <p className={`mb-4`}>If you’re looking for a model of dishonesty, Frank Forelle of Wyoming sets a new standard for deceit and unreliability. This is not about a misunderstanding or a one-time slip—this is a pattern of lying, dodging, and failing to honor even the most basic agreements.</p>
+          <h3 className={`text-xl font-bold mb-4`}>The Frank Forelle Fiasco</h3>
+          <p className={`mb-4`}>Frank Forelle’s actions have exposed his true nature as a liar who cannot be trusted under any circumstance:</p>
           <ul className={`pl-4 mb-4`}>
-            <li className={`list-disc`}><strong>Frank Forelle</strong> agreed to sell his vehicle through Bring a Trailer, a major online
-              auction site for classic
-              and specialty vehicles.
-            </li>
-            <li className={`list-disc`}>Despite reaching a deal, he did not finalize the transaction, leaving the
-              winning bidder without
-              recourse
-            </li>
+            <li className={`list-disc`}><span className={`font-bold`}>Habitual liar:</span> Frank agreed to sell his vehicle on Bring a Trailer, only to shamelessly back out of the deal with no explanation, apology, or attempt to set things right.</li>
+            <li className={`list-disc`}><span className={`font-bold`}>False promises:</span> He gives his word and then treats it as worthless, misleading others and ignoring every commitment he’s made.</li>
+            <li className={`list-disc`}><span className={`font-bold`}>Complete disrespect:</span> When confronted, Frank vanished—refusing to respond and showing that accountability and honesty mean absolutely nothing to him.</li>
+            <li className={`list-disc`}><span className={`font-bold`}>Serial deceiver:</span> His pattern is clear: say anything to get what he wants, then disappear when it’s time to deliver.</li>
+            <li className={`list-disc`}><span className={`font-bold`}>Irredeemable reputation:</span> There is no excuse or justification for Frank’s ongoing dishonesty; he’s simply demonstrated, again and again, that he cannot be believed.</li>
           </ul>
-          <p className={`mb-4`}>Failure to complete an agreed sale not only wastes the time and money of honest bidders
-            but also damages the
-            reputation of these communities as a whole.</p>
-          <h3 className={`text-xl font-bold mb-4`}><strong>Frank Forelle&#39;s</strong> Club Affiliations: Porsche Club of America (PCA),
-            Yellowstone Region</h3>
-          <p className={`mb-4`}><strong>Frank Forelle</strong> is a documented member and former executive board director of the Porsche
-            Club of America
-            Yellowstone Region. This group publicly lists him as a board member with his contact information associated
-            with official club communications</p>
-          <h3 className={`text-xl font-bold mb-4`}>Why This Matters</h3>
-          <ul className={`pl-4 mb-4`}>
-            <li className={`list-disc`}>Joining a recognized organization like the PCA is typically seen as a sign of
-              credibility within the car
-              enthusiast world.
-            </li>
-            <li className={`list-disc`}>However, when a club member acts dishonorably in public transactions and the
-              club leadership fails to
-              address the behavior or even respond to good-faith concerns, the integrity of the whole organization is
-              called into question.
-            </li>
-          </ul>
-          <h3 className={`text-xl font-bold mb-4`}>Yellowstone Region Porsche Club Leadership: A Pattern of Silence</h3>
-          <p className={`mb-4`}>After multiple attempts to contact the Yellowstone Region PCA regarding <strong>Frank Forelle’s</strong> actions, there was no
-            reply or willingness to address the issue from anyone in the local leadership.
-            These are the officers and key contacts who did not respond:</p>
+          <p className={`mb-4`}>Anyone thinking of dealing with Frank Forelle should expect empty promises, wasted time, and a complete lack of integrity. <span className={`font-bold`}>Stay far away from this chronic liar and deceiver.</span></p>
+          <h3 className={`text-xl font-bold mb-4`}>The Porsche Club of America, Yellowstone Region: A Culture of Cowardice</h3>
+          <p className={`mb-4`}>But the rot doesn’t stop at Frank. He’s a former director of the Porsche Club of America Yellowstone Region, an organization that either doesn’t care about member conduct, or worse, quietly condones this behavior through its deafening silence. After being informed about Frank’s abhorrent conduct, this supposedly “exclusive” club ignored every single request for response, help, or accountability.</p>
+          <h3 className={`text-xl font-bold mb-4`}>PCA Yellowstone: Where Leadership Means Looking the Other Way</h3>
+          <p className={`mb-4`}>Here’s the entire gallery of <span className={`italic`}>ostriches with their heads in the sand:</span></p>
           <div className={`max-w-full overflow-x-auto`}>
             <table className="border-collapse border border-gray-400 w-full mb-4">
               <thead>
@@ -167,28 +141,13 @@ export default function Home() {
               </tbody>
             </table>
           </div>
-          <p className={`mb-4 italic`}>This lack of any helpful response from the entire listed leadership demonstrates
-            a
-            disregard for ethical standards and transparency expected from a major club in the automotive community.</p>
-          <h3 className={`text-xl font-bold mb-4`}>What Can You Do?</h3>
+          <p className={`mb-4`}><span className={`font-bold`}>Every one of them chose silence. Not a peep.</span> No explanation, no action—just pure indifference. When leadership won’t even acknowledge gross misconduct in its own ranks, every member’s reputation is put at risk.</p>
+          <h3 className={`text-xl font-bold mb-4`}>The Takeaway</h3>
           <ul className={`pl-4 mb-4`}>
-            <li className={`list-disc`}>Exercise extreme caution in any transactions with <strong>Frank Forelle</strong>.</li>
-            <li className={`list-disc`}>Be wary of trusting the PCA Yellowstone Region leadership with conflict
-              resolution
-              or accountability, as they have shown zero willingness to address clear ethics violations among their own
-              ranks.
-            </li>
-            <li className={`list-disc`}>Share this information with others in the collector and enthusiast communities
-              to
-              help prevent future issues.
-            </li>
+            <li className={`list-disc`}><span className={`font-bold`}>Frank Forelle:</span> Shifty, unreliable, and unapologetically dishonest—avoid like the plague.</li>
+            <li className={`list-disc`}><span className={`font-bold`}>PCA Yellowstone Leadership:</span> A collective wall of silence and complicity. Don’t expect them to stand up for fairness or hold anyone accountable.</li>
           </ul>
-          <h3 className={`text-xl font-bold mb-4`}>Protect Yourself and Others</h3>
-          <p className={`mb-4`}>If you experience or witness unethical behavior in online car auctions, make it public,
-            warn your community, and demand accountability—both from individuals and the organizations they
-            represent.</p>
-          <p className={`italic`}>This site will be updated with any further information or developments in this
-            situation.</p>
+          <p className={`mb-4`}>If you value your money, your sanity, or your sense of fairness, <span className={`font-bold`}>stay far away from both Frank Forelle and anyone doing business under the PCA Yellowstone Region.</span> Make no mistake: associating with them is inviting dishonesty, disrespect, and—if you trust them—regret. Let their actions (or lack thereof) serve as a warning: there are people and organizations out there who simply do not care about doing the right thing.</p>
         </div>
         <footer className={`bg-black`}>
           <div className={`max-w-2xl mx-auto p-6 lg:px-6 lg:max-w-7xl`}>
