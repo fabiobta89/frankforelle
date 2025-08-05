@@ -54,7 +54,7 @@ export default function Home() {
         </div>
         <div className={`max-w-2xl mx-auto p-6 lg:px-6 lg:max-w-7xl`}>
           <div className={`fade-box ${isVisible ? 'fade-in' : 'fade-out'}`}>
-            <h3 className={`p-4 text-3xl font-extrabold flex items-center my-8`}>DO NOT BUY PORSCHE 911 WITH VIN#
+            <h3 className={`p-4 md:text-3xl font-extrabold flex items-center my-8`}>DO NOT BUY PORSCHE 911 WITH VIN#
               WP0AB091XKS121085, A 1989 Porsche 911 Carrera Coupe 25th Anniversary Edition.</h3>
           </div>
           {/*<div className={`flex items-center mb-8`}>*/}
@@ -105,7 +105,7 @@ export default function Home() {
             condones this behavior through its deafening silence. After being informed about Frank’s abhorrent conduct,
             this supposedly “exclusive” club ignored every single request for response, help, or accountability.</p>
           <div className={`fade-box ${isVisible ? 'fade-in' : 'fade-out'}`}>
-            <h3 className={`p-4 text-3xl font-extrabold flex items-center my-8`}>DO NOT BUY PORSCHE 911 WITH VIN#
+            <h3 className={`p-4 md:text-3xl font-extrabold flex items-center my-8`}>DO NOT BUY PORSCHE 911 WITH VIN#
               WP0AB091XKS121085, A 1989 Porsche 911 Carrera Coupe 25th Anniversary Edition.</h3>
           </div>
           <h3 className={`text-3xl font-extrabold mb-8`}>PCA Yellowstone: Where Leadership Means Looking the Other
@@ -195,7 +195,7 @@ export default function Home() {
             their actions (or lack thereof) serve as a warning: there are people and organizations out there who simply
             do not care about doing the right thing.</p>
           <div className={`fade-box ${isVisible ? 'fade-in' : 'fade-out'}`}>
-            <h3 className={`p-4 text-3xl font-extrabold flex items-center my-8`}>DO NOT BUY PORSCHE 911 WITH VIN#
+            <h3 className={`p-4 md:text-3xl font-extrabold flex items-center my-8`}>DO NOT BUY PORSCHE 911 WITH VIN#
               WP0AB091XKS121085, A 1989 Porsche 911 Carrera Coupe 25th Anniversary Edition.</h3>
           </div>
         </div>
